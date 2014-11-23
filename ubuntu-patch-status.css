@@ -1,0 +1,46 @@
+.grid {
+    background-color:#e3e3e3;
+    font-size:12px;
+    font-family:verdana,sans-serif;
+    border:none;
+}
+
+.grid td {
+    padding:3px;
+    border:none;
+    vertical-align:top;
+}
+
+
+.grid thead {
+    text-align:left;
+    background-color:#f0f0f0;
+}
+
+.grid tbody tr {
+    background-color:#edf3fe;
+}
+
+.grid .dep3-true {
+    background:#00ff00;
+    min-width: 4em;
+    text-align: center;
+}
+
+.grid .dep3-false {
+    background:#ff4400;
+    min-width: 4em;
+    text-align: center;
+}
+
+.grid .patch-kubuntu {
+    background:#ccccff;
+}
+
+.grid .patch-upstream {
+    background:#88ff88;
+}
+
+.grid .patch-other {
+    background:#eeeeee;
+}
